@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		493D631B22B055EC0013CB83 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493D631A22B055EC0013CB83 /* AppDelegate.swift */; };
-		493D631D22B055EC0013CB83 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493D631C22B055EC0013CB83 /* ViewController.swift */; };
 		493D632022B055EC0013CB83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 493D631E22B055EC0013CB83 /* Main.storyboard */; };
 		493D632222B055ED0013CB83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 493D632122B055ED0013CB83 /* Assets.xcassets */; };
 		493D632522B055ED0013CB83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 493D632322B055ED0013CB83 /* LaunchScreen.storyboard */; };
 		493D633022B055ED0013CB83 /* PersonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493D632F22B055ED0013CB83 /* PersonUITests.swift */; };
 		493D633B22B055ED0013CB83 /* PersonUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493D633A22B055ED0013CB83 /* PersonUIUITests.swift */; };
+		493D634922B056810013CB83 /* PersonUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493D634822B056810013CB83 /* PersonUIViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		493D631722B055EC0013CB83 /* PersonUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersonUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		493D631A22B055EC0013CB83 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		493D631C22B055EC0013CB83 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		493D631F22B055EC0013CB83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		493D632122B055ED0013CB83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		493D632422B055ED0013CB83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		493D633622B055ED0013CB83 /* PersonUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PersonUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		493D633A22B055ED0013CB83 /* PersonUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonUIUITests.swift; sourceTree = "<group>"; };
 		493D633C22B055ED0013CB83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		493D634822B056810013CB83 /* PersonUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonUIViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				493D631A22B055EC0013CB83 /* AppDelegate.swift */,
-				493D631C22B055EC0013CB83 /* ViewController.swift */,
+				493D634822B056810013CB83 /* PersonUIViewController.swift */,
 				493D631E22B055EC0013CB83 /* Main.storyboard */,
 				493D632122B055ED0013CB83 /* Assets.xcassets */,
 				493D632322B055ED0013CB83 /* LaunchScreen.storyboard */,
@@ -256,8 +256,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				493D631D22B055EC0013CB83 /* ViewController.swift in Sources */,
 				493D631B22B055EC0013CB83 /* AppDelegate.swift in Sources */,
+				493D634922B056810013CB83 /* PersonUIViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
